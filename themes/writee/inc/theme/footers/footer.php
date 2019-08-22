@@ -33,10 +33,11 @@
 				echo esc_html(get_theme_mod('wrt_copyright')); 
 			?>
 			
-			<?php echo __('© 2019,', 'writee') ?>
-			<a href="<?php echo esc_url( __( 'http://www.pradnik-suloszowa.pl/', 'writee' ) ); ?>" traget="_blank"><?php printf( __( ' %s', 'writee' ), 'LKS Prądnik Sułoszowa' ); ?></a>
-			<?php echo __('Theme by', 'writee') ?>
-			<a href="<?php echo esc_url( __( 'https://pradnik-suloszowa.pl/', 'writee' ) ); ?>" traget="_blank"><?php printf( __( ' %s', 'writee' ), 'Dominik Zając' ); ?></a>
+			<?php echo __('© 2019&nbsp', 'writee') ?>
+			<span><?php printf( __( ' %s', 'writee' ), 'LKS Prądnik Sułoszowa' ); ?></span>
+			<?php echo __('. Wszelkie prawa zastrzeżone', 'writee') ?> 
+			<?php echo __(' | by&nbsp', 'writee') ?>
+			<a href="<?php echo esc_url( __( 'https://www.facebook.com/dominik.zajac.332', 'writee' ) ); ?>" traget="_blank"><?php printf( __( ' %s', 'writee' ), 'Dominik Zając' ); ?></a>
 			
 		</div>
 	</div>

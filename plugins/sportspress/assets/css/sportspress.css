@@ -398,7 +398,7 @@
 	line-height: 2em;
 }
 .sp-event-list .team-logo {
-	width: 2em;
+	width: 5em;
 	height: 2em;
 	margin-right: 0.5em;
 	display: inline-block;
@@ -416,17 +416,17 @@
 	display: inline-block;
 	vertical-align: middle;
 }
-.sp-event-list .data-home img {
+/* /.sp-event-list .data-home img {
 	margin-left: 8px;
-}
-.sp-event-list .data-away img {
+} */
+/* .sp-event-list .data-away img {
 	margin-right: 8px;
-}
-.sp-event-list-format-homeaway .data-time {
+}  */
+/* .sp-event-list-format-homeaway .data-time {
 	text-align: center;
 	padding-left: 1em;
 	padding-right: 1em;
-}
+} */
 
 /* Event Blocks */
 .sp-event-blocks thead {
@@ -615,6 +615,10 @@ span.sp_event_spec_label {
 	/* Widget Alignment */
 	.sp-widget-align-none {
 		clear: both;
+		margin: 20% 0;
+	}
+	.sp-widget-align-none:nth-child(1) {
+		margin-top: 0;
 	}
 	.sp-widget-align-left {
 		width: 50%;
