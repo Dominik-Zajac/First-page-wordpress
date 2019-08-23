@@ -4715,14 +4715,16 @@ Posts
   position: relative !important;
   height: 200px;
   cursor: pointer !important;
-  margin: 10% 0;
+  margin: 2% 0;
   border: 1px dotted;
 }
 
 
 .standard-container .post .entry-content p{
-  max-height: 100px;
+  max-width: 20vw !important;
+  max-height: 60px;
   overflow: hidden !important;
+  text-overflow: ellipsis;
 }
 
 .standard-container .post::after,
@@ -4823,7 +4825,8 @@ Posts
     margin-bottom: 0.53571em; }
 
 .entry-meta:not(:last-child) {
-  margin-bottom: 0.9375em; }
+  /* margin-bottom: 0.9375em;  */
+}
 
 .entry-cat {
   font-size: 0.93rem;
@@ -4867,14 +4870,14 @@ Posts
     .entry-row .entry-full-center {
       display: flex;
       align-items: center;
-      justify-content: center;
+      justify-content: space-around;
       min-height: 198px;
     }
 
 .entry-row .entry-full-center .entry-media .entry-thumb img {
   width: 300px;
-  height: 120px;
-  margin-left: 10%;
+  height: 130px;
+  /* margin-left: 10%; */
 }
 
 .entry-share, .entry-comments {
@@ -5156,11 +5159,46 @@ Layout Post Elements
   .standard-container .entry {
     /* padding-top: 2.5em;  */
   }
+  .standard-container .entry-container_post {
+    text-align: left;
+    /* margin-left: 2rem; */
+  }
+
+  .standard-container .entry-container_post .entry-title{
+    margin-bottom: 4% !important;
+  }
+
+
+  .standard-container .entry-container_post .entry-footer,
+  .standard-container .entry-container_post .entry-content {
+    margin-top: 0 !important;
+  } 
+
   .standard-container .entry-container_post .entry-footer-bottom {
     margin-top: 1.25em;
     display: flex;
-    border: 1px solid red;
+    align-items: center;
+    margin-top: 0 !important;
   } 
+  .standard-container .entry-container_post .entry-footer-bottom .fa {
+    color: #1f640a;
+  }
+  .standard-container .entry-container_post .entry-footer-bottom .entry-date,
+  .standard-container .entry-container_post .entry-footer-bottom .comments-counting {
+    color: #696969
+  }
+
+  .standard-container .entry-container_post .entry-footer-bottom .entry-comments .comments-counting{
+    text-transform: capitalize;
+  }
+  .entry-button_post {
+    background-color: #1f640a;
+    color: #fff;
+  }
+  .entry-button_post:hover {
+    color: #fff;
+    opacity: 0.7;
+  }
     .standard-container .entry.sticky {
       margin-top: 1.25em;
       padding-top: 1.875em; }

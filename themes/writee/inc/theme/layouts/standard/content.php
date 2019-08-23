@@ -8,7 +8,7 @@ $post_excerpt_status = get_theme_mod('wrt_blog_post_excerpt', 'enable');
 	
 ?>
 <article id="entry-<?php the_ID(); ?>" <?php post_class(); echo 'style="text-align:center;"';?>>
-	<div class="entry-row">
+	<div class="entry-row" onclick="location.href='rwwrerewwerew'" >
 		<div class="entry-full-center">
 			<?php 
 				writee_featured_image(get_the_ID(), 'WRT-post-image');
