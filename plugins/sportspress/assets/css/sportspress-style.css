@@ -181,7 +181,10 @@
 .sp-data-table .sp-highlight,
 .sp-data-table .highlighted td {
     font-weight: 500 !important;
-    background: #f9f9f9 !important;
+    background: rgba(137, 233, 103, 0.3) !important;
+    /* background: rgba(255, 255, 255, 0.5) !important; */
+
+    font-size: 13px !important;
 }
 
 /* Galleries */
