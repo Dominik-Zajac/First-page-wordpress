@@ -18,5 +18,5 @@ global $post;
 		endif; 
 		
 	   ?>
-
+		<div class="linear-border"></div>
 	</div>
