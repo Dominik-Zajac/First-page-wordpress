@@ -5036,14 +5036,16 @@ Single Page and Post Elements
   width: 100%;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  border: 1px solid #000000; }
+  /* border: 1px solid #000000;  */
+}
   .entry-navigation:not(:first-child) {
     margin-top: 1.875em; }
   .entry-navigation a {
-    display: block;
+    display: inline-block;
     font-family: inherit;
     font-size: 1.05rem;
     padding: 0.59524em;
+    border: 1px solid #1f640a;
     background-color: #ffffff;
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
@@ -5053,7 +5055,7 @@ Single Page and Post Elements
       font-family: "Lato", "Lora", serif;
       font-size: 1rem; }
     .entry-navigation a:hover {
-      background-color: #000000;
+      background-color: #1f640a;
       color: #ffffff; }
     .entry-navigation a:before, .entry-navigation a:after {
       display: inline;
