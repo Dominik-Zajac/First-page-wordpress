@@ -8,11 +8,15 @@ $post_excerpt_status = get_theme_mod('wrt_blog_post_excerpt', 'enable');
 	
 ?>
 <article id="entry-<?php the_ID(); ?>" <?php post_class(); echo 'style="text-align:center;"';?>>
-	<div class="entry-row">
+	<div class="entry-row" onclick="location.href='rwwrerewwerew'" >
 		<div class="entry-full-center">
 			<?php 
-				get_template_part('inc/theme/views/content-post-header'); 
 				writee_featured_image(get_the_ID(), 'WRT-post-image');
+				 
+			?>
+			<div class='entry-container_post'>
+			<?php
+				get_template_part('inc/theme/views/content-post-header');
 			?>
 			<div class="entry-content">
 				
@@ -26,6 +30,7 @@ $post_excerpt_status = get_theme_mod('wrt_blog_post_excerpt', 'enable');
 				
 			</div>
 			<?php get_template_part('inc/theme/views/content-post-footer'); ?>
+				</div>
 		</div>
 	</div>
 </article>

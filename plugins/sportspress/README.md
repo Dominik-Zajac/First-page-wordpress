@@ -1,17 +1,13 @@
-# SportsPress - WP league management
+# SportsPress Pro
 
-Welcome to the SportsPress repository on GitHub. Here you can browse the source, look at open issues and keep track of development.
+Welcome to the SportsPress Pro repository on GitHub. Here you can browse the source, look at open issues and keep track of development.
 
-If you are not a developer, please use the [SportsPress plugin page](http://wordpress.org/plugins/sportspress/) on WordPress.org.
+SportsPress Pro contains the core [SportsPress](http://github.com/ThemeBoy/SportsPress) plugin as a submodule, and premium modules available only in this version. The core plugin is made available for free on [WordPress.org](http://wordpress.org/plugins/sportspress/).
 
-## Support
-This repository is not suitable for support. Please don't use our issue tracker for support requests, but for core SportsPress issues only. Support can take place in the appropriate channels:
+This project's version number should reflect the core version number at all times.
 
-* The [public support forums](http://wordpress.org/support/plugin/sportspress) on WordPress.org, where the community can help each other out.
-* The [ThemeBoy premium support portal](http://tboy.co/support) for customers who have purchased themes or extensions.
-
-
-## Contributing to SportsPress
-If you have a patch, or stumbled upon an issue with SportsPress core, you can contribute this back to the code. Please read our [contributor guidelines](https://github.com/ThemeBoy/sportspress/blob/master/CONTRIBUTING.md) for more information how you can do this.
-
-Translators can contribute new languages to SportsPress through [Transifex](https://www.transifex.com/projects/p/sportspress/).
+# Credits
+* The framework has been adapted from WooCommerce by WooThemes.
+* SportsPress is copyright 2015 ThemeBoy & the contributors.
+* SportsPress Pro is copyright 2015 ThemeBoy.
+* When using 3rd party code, please be sure to include all credits in the code's comments.

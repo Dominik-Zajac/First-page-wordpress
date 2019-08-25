@@ -7,6 +7,7 @@
 <article id="entry-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<div class="entry-row">
 		<div class="entry-full-center">
+
 			<div class="entry-header">
 				<?php 
 				if (! is_single()) :

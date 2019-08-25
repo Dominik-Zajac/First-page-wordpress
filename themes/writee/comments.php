@@ -15,7 +15,7 @@ global $comments;
 	<?php return; endif;  ?>
 	
 	<?php if ( have_comments() ) : ?>
-	<h2 class="comments-title"><?php _e( 'Comments' , 'writee' ); ?> <!--small>
+	<h2 class="comments-title"><?php _e( 'Komentarze' , 'writee' ); ?> <!--small>
 	<?php echo number_format_i18n( get_comments_number() ); ?></small--></h2>
     <ol class="comments-list">
       <?php
@@ -46,7 +46,7 @@ global $comments;
   comment_form( array(
     'comment_notes_after' => '',
     'id_submit'           => 'writty-comment-submit',
-    'label_submit'        => __( 'Submit' , 'writee' )
+    'label_submit'        => __( 'Dodaj' , 'writee' )
   ) );
   ?>
   

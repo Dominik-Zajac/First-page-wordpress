@@ -12,6 +12,9 @@
 				<div class="site-row">
 					<div class="site-header-middle-center">
 						<div class="site-brand">
+						<?php if(!is_single()): echo '<h1 class="site-logo">'; else: echo '<h2 class="site-logo">'; endif;  ?>
+							<?php the_custom_logo(); ?>
+							<?php if(!is_single()): echo '</h1>'; else: echo '</h2>'; endif;  ?>
 						<?php
 							$writee_header_text = esc_attr(get_theme_mod('header_text'));
 							if ($writee_header_text): ?>

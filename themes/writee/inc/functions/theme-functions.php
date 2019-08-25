@@ -304,7 +304,7 @@ function writee_comment_list( $comment, $args, $depth ) {
       <?php
       printf( '<div class="comment-img">%1$s %2$s</div>',
          get_avatar( $comment, 120 ),
-        ( $comment->user_id === $post->post_author ) ? '<span class="bypostauthor">' . __( 'Post<br>Author', 'writee' ) . '</span>' : ''
+        ( $comment->user_id === $post->post_author ) ? '' : ''
       );
       ?>
       <article id="comment-<?php comment_ID(); ?>" class="comment-meta">
@@ -316,18 +316,18 @@ function writee_comment_list( $comment, $args, $depth ) {
           printf( '<div> <a href="%1$s" class="comment-time"><time datetime="%2$s">%3$s</time></a> </div>',
             esc_url( get_comment_link( $comment->comment_ID ) ),
             get_comment_time( 'c' ),
-            sprintf( __( '%1$s at %2$s', 'writee' ),
+            sprintf( __( '%1$s o %2$s', 'writee' ),
               get_comment_date(),
               get_comment_time()
             )
           );
-          edit_comment_link( __( '<i class="icon-edit"></i> Edit', 'writee' ) );
+          edit_comment_link( __( '<i class="icon-edit"></i>&nbsp&nbspEdytuj', 'writee' ) );
           ?>
 		  <div class="comment-reply"><?php comment_reply_link( array_merge( $args, array( 'depth' => $depth, 'max_depth' => $args['max_depth'] ) ) ); ?></div><!-- .reply -->
           
         </header>
         <?php if ( '0' == $comment->comment_approved ) : ?>
-          <p class="comment-awaiting-moderation"><?php _e( 'Your comment is awaiting moderation.', 'writee' ); ?></p>
+          <p class="comment-awaiting-moderation"><?php _e( 'Twój komentarz czeka na akceptację.', 'writee' ); ?></p>
         <?php endif; ?>
         <section class="comment-content">
           <?php comment_text(); ?>

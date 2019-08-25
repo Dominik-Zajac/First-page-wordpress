@@ -2,11 +2,12 @@
 
 global $post;
 
+// $date_format = 'j F Y';
 ?>
 <article id="entry-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 	<?php if(is_single()): ?>
-	<div class="entry-row">
+	<div class="entry-row_publish">
 		<div class="entry-full-center" style="text-align:center;">
 			<?php 
 				get_template_part('inc/theme/views/content-post-header');
@@ -19,12 +20,11 @@ global $post;
 				
 			</div>
 			<div class="entry-paginated-link"><?php wp_link_pages(); ?></div>
-			<?php 
 				
-				the_tags( '<div class="entry-tags">'.__( '', 'writee' )  ,' ', '</div>'); 
-				
-				get_template_part('inc/theme/views/content-post-footer'); 
-			?>
+				<!-- <div class="entry-meta">
+					<span class="fa fa-calendar"></span>
+					<span class="entry-date"><?php the_time($date_format); ?></span>
+				</div> -->
 			
 		</div>
 	</div>
@@ -38,19 +38,18 @@ global $post;
 		<?php if($prevPost): ?>
 		<div class="entry-previous">
 			<?php
-				previous_post_link( '%link', ' '. __( 'Previous Post', 'writee' ).'',false );
+				previous_post_link( '%link', ' '. __( 'Poprzedni Post', 'writee' ).'',false );
 			?>
 		</div> 
 		<?php endif; if($nextPost): ?>
 		<div class="entry-next">
 			<?php 
-				next_post_link( '%link', ''. __( 'Next Post', 'writee' ).'',false ); 
+				next_post_link( '%link', ''. __( 'Następny Post', 'writee' ).'',false ); 
 			?>
 		</div>
 		<?php endif; ?>
 	</div><!-- .post-navigation -->
 	<?php endif; 
-		get_template_part( 'inc/theme/posts/post-related');
 	endif;
 	?>
     
