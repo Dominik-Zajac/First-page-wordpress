@@ -365,9 +365,9 @@ class FooGallery extends stdClass {
 	}
 
 	public function image_count() {
-		$no_images_text = foogallery_get_setting( 'language_images_count_none_text',   __( 'No images', 'foogallery' ) );
-		$singular_text  = foogallery_get_setting( 'language_images_count_single_text', __( '1 image', 'foogallery' ) );
-		$plural_text    = foogallery_get_setting( 'language_images_count_plural_text', __( '%s images', 'foogallery' ) );
+		$no_images_text = foogallery_get_setting( 'language_images_count_none_text',   __( 'Brak zdjęć', 'foogallery' ) );
+		$singular_text  = foogallery_get_setting( 'language_images_count_single_text', __( '1 zdjęcie', 'foogallery' ) );
+		$plural_text    = foogallery_get_setting( 'language_images_count_plural_text', __( 'Liczba zdjęć: %s', 'foogallery' ) );
 
 		$count = $this->attachment_count();
 

@@ -1,3 +1,15 @@
+/* ~~~~~~~~~~~~~~~~~ Me ~~~~~~~~~~~~~~~*/
+.foogallery-album-header {
+	margin: 0 auto;
+	max-width: 60vw;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+}
+
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
 .foogallery-album-gallery-list {
 	list-style: none !important;
 	padding: 0 !important;
@@ -13,6 +25,7 @@
 	z-index: 10;
 	float: left;
 	margin: 10px 15px 15px 10px !important;
+
 }
 
 /* Stacks created by the use of generated content */
@@ -53,6 +66,26 @@
 	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
 	overflow: hidden;
 	line-height: 0;
+	width: 300px;
+	height: 300px;
+}
+
+.foogallery-album-gallery-list .foogallery-pile .foogallery-pile-inner img { 
+	width: 300px;
+	height: 300px;
+}
+
+.foogallery-album-gallery-list .foogallery-pile .foogallery-pile-inner h3 {
+	font-family: 'Roboto'; 
+	font-size: 15px;
+	margin-bottom: 15px;
+	padding: 10px 8px;
+	background-color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.foogallery-album-gallery-list .foogallery-pile .foogallery-pile-inner span { 
+	margin-top: 3px;
+	font-size: 12px;
 }
 
 .foogallery-album-gallery-list .foogallery-pile .foogallery-pile-inner a {
