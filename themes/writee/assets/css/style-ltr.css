@@ -4749,6 +4749,7 @@
      overflow: hidden;
      color: #1f640a !important;
      font-family: 'Roboto';
+     text-align: center;
 }
  .entry-header:not(:first-child) {
      margin-top: 1.875em;
@@ -4805,9 +4806,10 @@
 }
  .entry-title {
      font-family: inherit;
-     font-size: 1.75rem;
+     font-size: 2.2rem;
      line-height: 1.2;
-     font-weight: 400;
+     font-weight: 600;
+     letter-spacing: 1px;
 }
  .entry-title:not(:last-child) {
      margin-bottom: 0.53571em;
@@ -4864,7 +4866,7 @@
  .entry-row .entry-full-center {
      display: flex;
      align-items: center;
-     justify-content: space-around;
+     justify-content: center;
      min-height: 198px;
 }
  .entry-row .entry-full-center .entry-media .entry-thumb img {
@@ -6118,7 +6120,7 @@
 }
 .linear-border {
      height: 2px;
-     margin: 0 auto;
+     margin: -10px auto 20px;
      max-width: 50vw;
      background: -webkit-gradient(linear, left top, right top, color-stop(10%, rgba(23, 23, 23, 0)), color-stop(50%, #fdcb6e), color-stop(90%, rgba(23, 23, 23, 0)));
      background: linear-gradient(to right, rgba(23, 23, 23, 0) 10%, black 50%, rgba(23, 23, 23, 0) 90%);

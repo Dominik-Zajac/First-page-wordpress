@@ -6,9 +6,7 @@
 ?>
 <article id="entry-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<div class="entry-row">
-		<div class="entry-full-center">
-
-			<div class="entry-header">
+	<div class="entry-header">
 				<?php 
 				if (! is_single()) :
 					the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '">', '</a></h2>' );
@@ -19,6 +17,9 @@
 				endif; ?>
 				<div class='linear-border'></div>
 			</div>
+		<div class="entry-full-center">
+
+
 			<?php writee_featured_image(get_the_ID(), 'WRT-post-image'); ?>
 			
 			<div class="entry-content">

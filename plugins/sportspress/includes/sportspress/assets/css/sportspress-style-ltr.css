@@ -28,6 +28,10 @@
     text-align: right !important;
 }
 
+.sp-player-list .data-name{
+    min-width: 200px !important; 
+    font-weight: 500 !important;
+}
 .sp-data-table .data-name {
     text-align: left !important;
 }
