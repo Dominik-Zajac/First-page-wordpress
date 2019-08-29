@@ -17,6 +17,7 @@
 					the_title( '<h2 class="entry-title">', '</h2>' );
 					
 				endif; ?>
+				<div class='linear-border'></div>
 			</div>
 			<?php writee_featured_image(get_the_ID(), 'WRT-post-image'); ?>
 			

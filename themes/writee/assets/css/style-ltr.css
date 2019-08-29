@@ -4640,6 +4640,7 @@
      display: block;
      max-width: 60rem;
      padding: 1.25em 0;
+
 } 
 .with-no-sidebar {
     display: block;
@@ -4746,6 +4747,8 @@
      position: relative;
      display: block;
      overflow: hidden;
+     color: #1f640a !important;
+     font-family: 'Roboto';
 }
  .entry-header:not(:first-child) {
      margin-top: 1.875em;
@@ -6107,18 +6110,18 @@
 }
 /*-------------------------------------------------------------- Publish post --------------------------------------------------------------*/
  .entry-row_publish .entry-header .entry-title {
-     margin-bottom: 0;
+     margin-bottom: -20px !important;
      font-family: 'Roboto';
      color: #1f640a;
      font-weight: bold;
      text-transform: uppercase;
 }
- .entry-row_publish .linear-border {
+.linear-border {
      height: 2px;
      margin: 0 auto;
      max-width: 50vw;
      background: -webkit-gradient(linear, left top, right top, color-stop(10%, rgba(23, 23, 23, 0)), color-stop(50%, #fdcb6e), color-stop(90%, rgba(23, 23, 23, 0)));
-     background: linear-gradient(to right, rgba(23, 23, 23, 0) 10%, #1f640a 50%, rgba(23, 23, 23, 0) 90%);
+     background: linear-gradient(to right, rgba(23, 23, 23, 0) 10%, black 50%, rgba(23, 23, 23, 0) 90%);
 }
  .entry-row_publish .entry-media img {
      width: 100% 
