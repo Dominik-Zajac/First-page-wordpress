@@ -32,6 +32,10 @@
     min-width: 200px !important; 
     font-weight: 500 !important;
 }
+
+.sp-league-table .data-threethreesix {
+    min-width: 67px;
+}
 .sp-data-table .data-name {
     text-align: left !important;
 }
