@@ -1,0 +1,36 @@
+{b}{span style="color:red;" }Err{/span}{/b}: on:25.08.2019 10:38:56: cron-job: No depot found /opt/lampp/htdocs/wordpress/wp-content/wppa-depot
+{b}url{/b}: /wordpress/wp-cron.php?doing_wp_cron=1566722335.5697419643402099609375
+{b}{span style="color:red;" }Err{/span}{/b}: on:25.08.2019 10:41:32: dominik: Unsafe path detected in wppa_is_dir(): .../wp-content
+wppa-wrappers.php:282 wppa_is_dir() &lt;- wppa-wrappers.php:294 _wppa_mktree() &lt;- wppa-wrappers.php:294 _wppa_mktree() &lt;- wppa-wrappers.php:273 _wppa_mktree() &lt;- wppa-admin.php:165 wppa_mktree() 
+{b}url{/b}: /wordpress/wp-admin/admin.php?page=wppa_import_photos
+{b}{span style="color:red;" }Err{/span}{/b}: on:25.08.2019 10:41:32: dominik: Unsafe path detected in wppa_is_dir(): /opt/lampp/htdocs/wordpress
+wppa-wrappers.php:282 wppa_is_dir() &lt;- wppa-wrappers.php:294 _wppa_mktree() &lt;- wppa-wrappers.php:294 _wppa_mktree() &lt;- wppa-wrappers.php:294 _wppa_mktree() &lt;- wppa-wrappers.php:273 _wppa_mktree() 
+{b}url{/b}: /wordpress/wp-admin/admin.php?page=wppa_import_photos
+{b}{span style="color:red;" }Err{/span}{/b}: on:25.08.2019 10:41:32: dominik: Unsafe path detected in wppa_is_dir(): /opt/lampp/htdocs
+wppa-wrappers.php:282 wppa_is_dir() &lt;- wppa-wrappers.php:294 _wppa_mktree() &lt;- wppa-wrappers.php:294 _wppa_mktree() &lt;- wppa-wrappers.php:294 _wppa_mktree() &lt;- wppa-wrappers.php:294 _wppa_mktree() 
+{b}url{/b}: /wordpress/wp-admin/admin.php?page=wppa_import_photos
+{b}{span style="color:red;" }Err{/span}{/b}: on:25.08.2019 10:41:32: dominik: Unsafe path detected in wppa_is_dir(): /opt/lampp
+wppa-wrappers.php:282 wppa_is_dir() &lt;- wppa-wrappers.php:294 _wppa_mktree() &lt;- wppa-wrappers.php:294 _wppa_mktree() &lt;- wppa-wrappers.php:294 _wppa_mktree() &lt;- wppa-wrappers.php:294 _wppa_mktree() 
+{b}url{/b}: /wordpress/wp-admin/admin.php?page=wppa_import_photos
+{b}{span style="color:red;" }Err{/span}{/b}: on:25.08.2019 10:41:32: dominik: Unsafe path detected in wppa_is_dir(): /opt
+wppa-wrappers.php:282 wppa_is_dir() &lt;- wppa-wrappers.php:294 _wppa_mktree() &lt;- wppa-wrappers.php:294 _wppa_mktree() &lt;- wppa-wrappers.php:294 _wppa_mktree() &lt;- wppa-wrappers.php:294 _wppa_mktree() 
+{b}url{/b}: /wordpress/wp-admin/admin.php?page=wppa_import_photos
+{b}{span style="color:red;" }Err{/span}{/b}: on:25.08.2019 10:41:32: dominik: Unsafe path detected in wppa_is_dir(): /
+wppa-wrappers.php:282 wppa_is_dir() &lt;- wppa-wrappers.php:294 _wppa_mktree() &lt;- wppa-wrappers.php:294 _wppa_mktree() &lt;- wppa-wrappers.php:294 _wppa_mktree() &lt;- wppa-wrappers.php:294 _wppa_mktree() 
+{b}url{/b}: /wordpress/wp-admin/admin.php?page=wppa_import_photos
+{b}{span style="color:red;" }Err{/span}{/b}: on:25.08.2019 10:41:32: dominik: Unsafe path detected in wppa_mkdir(): /opt/lampp
+wppa-wrappers.php:296 wppa_mkdir() &lt;- wppa-wrappers.php:294 _wppa_mktree() &lt;- wppa-wrappers.php:294 _wppa_mktree() &lt;- wppa-wrappers.php:294 _wppa_mktree() &lt;- wppa-wrappers.php:294 _wppa_mktree() 
+{b}url{/b}: /wordpress/wp-admin/admin.php?page=wppa_import_photos
+{b}{span style="color:red;" }Err{/span}{/b}: on:25.08.2019 10:41:32: dominik: Unsafe path detected in wppa_mkdir(): /opt/lampp/htdocs
+wppa-wrappers.php:296 wppa_mkdir() &lt;- wppa-wrappers.php:294 _wppa_mktree() &lt;- wppa-wrappers.php:294 _wppa_mktree() &lt;- wppa-wrappers.php:294 _wppa_mktree() &lt;- wppa-wrappers.php:294 _wppa_mktree() 
+{b}url{/b}: /wordpress/wp-admin/admin.php?page=wppa_import_photos
+{b}{span style="color:red;" }Err{/span}{/b}: on:25.08.2019 10:41:32: dominik: Unsafe path detected in wppa_mkdir(): /opt/lampp/htdocs/wordpress
+wppa-wrappers.php:296 wppa_mkdir() &lt;- wppa-wrappers.php:294 _wppa_mktree() &lt;- wppa-wrappers.php:294 _wppa_mktree() &lt;- wppa-wrappers.php:294 _wppa_mktree() &lt;- wppa-wrappers.php:273 _wppa_mktree() 
+{b}url{/b}: /wordpress/wp-admin/admin.php?page=wppa_import_photos
+{b}{span style="color:red;" }Err{/span}{/b}: on:25.08.2019 10:41:32: dominik: Unsafe path detected in wppa_mkdir(): .../wp-content
+wppa-wrappers.php:296 wppa_mkdir() &lt;- wppa-wrappers.php:294 _wppa_mktree() &lt;- wppa-wrappers.php:294 _wppa_mktree() &lt;- wppa-wrappers.php:273 _wppa_mktree() &lt;- wppa-admin.php:165 wppa_mktree() 
+{b}url{/b}: /wordpress/wp-admin/admin.php?page=wppa_import_photos
+{b}{span style="color:red;" }Err{/span}{/b}: on:25.08.2019 10:41:32: dominik: Could not create .../wp-content/wppa-depot
+{b}url{/b}: /wordpress/wp-admin/admin.php?page=wppa_import_photos
+{b}{span style="color:red;" }Err{/span}{/b}: on:25.08.2019 10:41:32: dominik: Could not create /opt/lampp/htdocs/wordpress/wp-content/wppa-depot/dominik
+{b}url{/b}: /wordpress/wp-admin/admin.php?page=wppa_import_photos

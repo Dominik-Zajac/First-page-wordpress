@@ -4640,6 +4640,11 @@
      display: block;
      max-width: 60rem;
      padding: 1.25em 0;
+} 
+.with-no-sidebar {
+    display: block;
+    max-width: 100vw !important;
+    padding: 1.25em 0;
 }
  @media screen and (min-width: 768px) {
      .site-content {
@@ -4966,6 +4971,9 @@
 /*----------------------------------------------------------------- Single Page and Post Elements --------------------------------------------------------------*/
  .entry-content {
      text-align: left;
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
 }
  .entry-content:after {
      display: table;
