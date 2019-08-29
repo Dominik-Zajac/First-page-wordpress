@@ -36,6 +36,21 @@
 .sp-league-table .data-threethreesix {
     min-width: 67px;
 }
+
+.sp-event-list {
+    min-width: 40vw;
+}
+
+.sp-data-table .data-home {
+    text-align: right !important;
+    min-width: 270px !important; 
+}
+
+.sp-data-table .data-away {
+    text-align: left !important;
+    min-width: 270px !important; 
+}
+
 .sp-data-table .data-name {
     text-align: left !important;
 }
