@@ -18,15 +18,16 @@ get_header();
 							<div class="entry-full-center">
 								<div class="entry-header" style="text-align:center;">
 									<div class="entry-meta">
-										<h2 itemprop="headline" class="entry-title">
+										<h2 itemprop="headline" class="entry-title not-found">
 											<?php echo esc_html__('Not Found', 'writee') ?> 
 										</h2>
+										<p class='not-found_paragraph'>Podana strona nie została odnaleziona.</p>
 									</div>
 								</div>
-								<div class="entry-content">
+								<!-- <div class="entry-content">
 									<p class="align-center"><?php echo esc_html__( 'The page you are looking for is no longer here, or never existed in the first place (bummer). You can try searching for what you are looking for using the form below. If that still doesn\'t provide the results you are looking for, you can always start over from the home page.', 'writee' ); ?></p>
 									<?php get_search_form(); ?>
-								</div>
+								</div> -->
 							</div>
 						</div>
 					</article>

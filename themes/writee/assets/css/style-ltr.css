@@ -4423,6 +4423,16 @@
          margin-right: 0;
     }
 }
+
+@media screen and (max-width: 992px) {
+    .site-row {
+        flex-direction: column;
+        align-items: center;
+    }
+    .site-content {
+        width: 100% !important;
+    }
+}
  .site-table-row {
      display: block;
 }
@@ -4811,6 +4821,17 @@
      font-weight: 600;
      letter-spacing: 1px;
 }
+
+.not-found {
+    text-transform: uppercase !important;
+    font-size: 4rem;
+}
+
+.not-found_paragraph {
+    font-size: 2rem;
+    color: #000;
+}
+
  .entry-title:not(:last-child) {
      margin-bottom: 0.53571em;
 }
