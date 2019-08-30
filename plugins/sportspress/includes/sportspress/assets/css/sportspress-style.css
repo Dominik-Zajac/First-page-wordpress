@@ -50,6 +50,13 @@
     text-transform: uppercase !important;
     letter-spacing: normal !important;
     color: black !important;
+    width: 100%;
+
+}
+.data-day {
+    display: flex;
+    justify-content: center;
+    min-width: 385px;
 }
 
 .sp-table-caption {
@@ -141,6 +148,15 @@
     border-collapse: collapse !important;
     border: 2px solid #1f640a !important;
     width: 100% !important;
+}
+
+.table-date_box {
+    border-top: none !important;
+    max-width: 400px !important;
+}
+.table-date_box th {
+    display: block !important;
+    min-width: 400px !important;
 }
 
 .sp-data-table tr {

@@ -172,17 +172,17 @@ $identifier = uniqid( 'eventlist_' );
 					if ( sp_column_active( $usecolumns, 'season' ) )
 						echo '<th class="data-season">' . __( 'Season', 'sportspress' ) . '</th>';
 
-					if ( sp_column_active( $usecolumns, 'venue' ) ) {
-						echo '<th class="data-venue">' . __( 'Venue', 'sportspress' ) . '</th>';
-					}else{
-						echo '<th style="display:none;" class="data-venue">' . __( 'Venue', 'sportspress' ) . '</th>';
-					}
+					// if ( sp_column_active( $usecolumns, 'venue' ) ) {
+					// 	echo '<th class="data-venue">' . __( 'Venue', 'sportspress' ) . '</th>';
+					// }else{
+					// 	echo '<th style="display:none;" class="data-venue">' . __( 'Venue', 'sportspress' ) . '</th>';
+					// }
 
 					if ( sp_column_active( $usecolumns, 'article' ) )
 						echo '<th class="data-article">' . __( 'Article', 'sportspress' ) . '</th>';
 
-					if ( sp_column_active( $usecolumns, 'day' ) )
-						echo '<th class="data-day">' . __( 'Match Day', 'sportspress' ) . '</th>';
+					// if ( sp_column_active( $usecolumns, 'day' ) )
+					// 	echo '<th class="data-day">' . __( 'Match Day', 'sportspress' ) . '</th>';
 
 					do_action( 'sportspress_event_list_head_row', $usecolumns );
 					?>
@@ -390,26 +390,26 @@ $identifier = uniqid( 'eventlist_' );
 							echo '</td>';
 						endif;
 
-						if ( sp_column_active( $usecolumns, 'venue' ) ):
-							echo '<td class="data-venue" data-label="'.__( 'Venue', 'sportspress' ).'" itemprop="location" itemscope itemtype="http://schema.org/Place">';
-							echo '<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">';
-							if ( $link_venues ):
-								the_terms( $event->ID, 'sp_venue' );
-							else:
-								$venues = get_the_terms( $event->ID, 'sp_venue' );
-								if ( $venues ):
-									echo implode( wp_list_pluck( $venues, 'name' ), ', ' );
-								endif;
-							endif;
-							echo '</div>';
-							echo '</td>';
-						else:
-							echo '<td style="display:none;" class="data-venue" data-label="'.__( 'Venue', 'sportspress' ).'" itemprop="location" itemscope itemtype="http://schema.org/Place">';
-							echo '<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">';
-							_e( 'N/A', 'sportspress' );
-							echo '</div>';
-							echo '</td>';
-						endif;
+						// if ( sp_column_active( $usecolumns, 'venue' ) ):
+						// 	echo '<td class="data-venue" data-label="'.__( 'Venue', 'sportspress' ).'" itemprop="location" itemscope itemtype="http://schema.org/Place">';
+						// 	echo '<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">';
+						// 	if ( $link_venues ):
+						// 		the_terms( $event->ID, 'sp_venue' );
+						// 	else:
+						// 		$venues = get_the_terms( $event->ID, 'sp_venue' );
+						// 		if ( $venues ):
+						// 			echo implode( wp_list_pluck( $venues, 'name' ), ', ' );
+						// 		endif;
+						// 	endif;
+						// 	echo '</div>';
+						// 	echo '</td>';
+						// else:
+						// 	echo '<td style="display:none;" class="data-venue" data-label="'.__( 'Venue', 'sportspress' ).'" itemprop="location" itemscope itemtype="http://schema.org/Place">';
+						// 	echo '<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">';
+						// 	_e( 'N/A', 'sportspress' );
+						// 	echo '</div>';
+						// 	echo '</td>';
+						// endif;
 
 						if ( sp_column_active( $usecolumns, 'article' ) ):
 							echo '<td class="data-article" data-label="'.__( 'Article', 'sportspress' ).'">';
@@ -432,16 +432,16 @@ $identifier = uniqid( 'eventlist_' );
 							echo '</td>';
 						endif;
 
-						if ( sp_column_active( $usecolumns, 'day' ) ):
-							echo '<td class="data-day" data-label="'.__( 'Match Day', 'sportspress' ).'">';
-							$day = get_post_meta( $event->ID, 'sp_day', true );
-							if ( '' == $day ) {
-								echo '-';
-							} else {
-								echo $day;
-							}
-							echo '</td>';
-						endif;
+						// if ( sp_column_active( $usecolumns, 'day' ) ):
+						// 	echo '<td class="data-day" data-label="'.__( 'Match Day', 'sportspress' ).'">';
+						// 	$day = get_post_meta( $event->ID, 'sp_day', true );
+						// 	if ( '' == $day ) {
+						// 		echo '-';
+						// 	} else {
+						// 		echo $day;
+						// 	}
+						// 	echo '</td>';
+						// endif;
 
 						do_action( 'sportspress_event_list_row', $event, $usecolumns );
 
@@ -452,7 +452,7 @@ $identifier = uniqid( 'eventlist_' );
 				?>
 			</tbody>
 		</table>
-		<table class="sp-event-list sp-event-list-format-<?php echo $title_format; ?> sp-data-table<?php if ( $paginated ) { ?> sp-paginated-table<?php } if ( $sortable ) { ?> sp-sortable-table<?php } if ( $responsive ) { echo ' sp-responsive-table '.$identifier; } if ( $scrollable ) { ?> sp-scrollable-table <?php } ?>" data-sp-rows="<?php echo $rows; ?>">
+		<table class="table-date_box sp-event-list sp-event-list-format-<?php echo $title_format; ?> sp-data-table<?php if ( $paginated ) { ?> sp-paginated-table<?php } if ( $sortable ) { ?> sp-sortable-table<?php } if ( $responsive ) { echo ' sp-responsive-table '.$identifier; } if ( $scrollable ) { ?> sp-scrollable-table <?php } ?>" data-sp-rows="<?php echo $rows; ?>">
 		<?php
 		if ( sp_column_active( $usecolumns, 'venue' ) ) 
 			echo '<thead>
