@@ -5229,8 +5229,8 @@
 }
  .standard-container .entry-container_post {
      text-align: left;
-    /* margin-left: 2rem;
-     */
+     margin-left: 2rem;
+     
 }
  .standard-container .entry-container_post .entry-title{
      margin-bottom: 4% !important;

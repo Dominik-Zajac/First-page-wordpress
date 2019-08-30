@@ -676,3 +676,23 @@ span.sp_event_spec_label {
 		clear: none;
 	}
 }
+
+/***********************************************/
+/*					Additional code					   */
+/***********************************************/
+.sp-widget-align-none {
+	margin-bottom: 15%;
+}
+.sp-widget-align-none .sp-event-list {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+.sp-widget-align-none .sp-event-list .data-home,
+.sp-widget-align-none .sp-event-list .data-away {
+	text-align: center !important;
+	/* max-width: 150px !important; */
+	min-width: 150px !important;
+	/* background-color: red !important; */
+
+}

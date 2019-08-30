@@ -452,6 +452,32 @@ $identifier = uniqid( 'eventlist_' );
 				?>
 			</tbody>
 		</table>
+		<table class="sp-event-list sp-event-list-format-<?php echo $title_format; ?> sp-data-table<?php if ( $paginated ) { ?> sp-paginated-table<?php } if ( $sortable ) { ?> sp-sortable-table<?php } if ( $responsive ) { echo ' sp-responsive-table '.$identifier; } if ( $scrollable ) { ?> sp-scrollable-table <?php } ?>" data-sp-rows="<?php echo $rows; ?>">
+		<?php
+		if ( sp_column_active( $usecolumns, 'venue' ) ) 
+			echo '<thead>
+				<tr>
+					<th class="data-day">Data spotkania</th>
+				</tr>
+			</thead>';	
+		?>
+		<?php
+			echo'<tbody>';
+				echo '<tr>';
+				if ( sp_column_active( $usecolumns, 'day' ) && sp_column_active( $usecolumns, 'venue' )):
+					echo '<td class="data-day" data-label="'.__( 'Match Day', 'sportspress' ).'">';
+						$day = get_post_meta( $event->ID, 'sp_day', true );
+						if ( '' == $day ) {
+							echo '-';
+						} else {
+							echo $day;
+						}
+							echo '</td>';
+						endif;
+					echo'</tr>';
+			echo'</tbody>';
+		?>
+		</table>
 	</div>
 	<?php
 	// If responsive tables are enabled then load the inline css code

@@ -615,7 +615,6 @@ span.sp_event_spec_label {
 	/* Widget Alignment */
 	.sp-widget-align-none {
 		clear: both;
-		margin: 20% 0;
 	}
 	.sp-widget-align-none:nth-child(1) {
 		margin-top: 0;
