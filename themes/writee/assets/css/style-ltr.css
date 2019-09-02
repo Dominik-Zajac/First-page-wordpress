@@ -949,21 +949,21 @@
      font-size: 16px;
      line-height: 10px;
      text-align: center;
-     color: #000000;
+     color: #1f640a;
      opacity: 0.1;
      -webkit-font-smoothing: antialiased;
      -moz-osx-font-smoothing: grayscale;
 }
  .slick-dots li.slick-active span:before {
-     color: #000000;
+     color: #1f640a;
      opacity: 1;
      content: "";
 }
  .wrapper-light .slick-dots li span:before {
-     color: #000000;
+     color: #1f640a;
 }
  .wrapper-light .slick-dots li.slick-active span:before {
-     color: #000000;
+     color: #1f640a;
 }
  .wrapper-dark .slick-dots li span:before {
      color: #ffffff;

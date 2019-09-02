@@ -221,12 +221,7 @@ $identifier = uniqid( 'eventlist_' );
 										$logo = '<span class="team-logo">' . sp_get_logo( $team, 'mini', array( 'itemprop' => 'url' ) ) . '</span>';
 										$team_logos[] = $logo;
 										$team_class .= ' has-logo';
-										
-										if ( $t ):
-											$name = $logo . ' ' . $name;
-										else:
-											$name = $logo . ' ' . $name;
-										endif;
+										$name = $logo . ' ' . $name;
 									endif;
 								endif;
 
