@@ -163,6 +163,11 @@
     border: none !important;
 }
 
+.widget .sp-data-table tr {
+    display: flex;
+}
+
+
 .sp-data-table th,
 .sp-data-table td {
     font-size: 13px !important;
