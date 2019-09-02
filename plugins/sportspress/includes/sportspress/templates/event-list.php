@@ -225,7 +225,7 @@ $identifier = uniqid( 'eventlist_' );
 										if ( $t ):
 											$name = $logo . ' ' . $name;
 										else:
-											$name .= ' ' . $logo;
+											$name = $logo . ' ' . $name;
 										endif;
 									endif;
 								endif;

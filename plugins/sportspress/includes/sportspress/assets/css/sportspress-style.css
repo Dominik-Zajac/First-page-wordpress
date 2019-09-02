@@ -163,8 +163,41 @@
     border: none !important;
 }
 
-.widget .sp-data-table tr {
+.widget_sp_event_list .sp-data-table tr {
     display: flex;
+    align-items: center;
+    height: 100%;
+
+}
+
+.widget_sp_event_list .sp-data-table .team-logo {
+    margin: 10px auto;
+}
+
+.widget_sp_event_list .sp-data-table .data-results span {
+    font-size: 25px !important;
+}
+
+.widget_sp_event_list .sp-data-table .data-results {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.widget_sp_event_list .sp-data-table .team-logo img {
+    max-width: 4em;
+    max-height: 4em;
+    padding-bottom: 15px;
+    margin-left: 0px !important;   
+}
+
+.widget_sp_event_list .sp-data-table .data-home, 
+.widget_sp_event_list .sp-data-table .data-away {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
 }
 
 
