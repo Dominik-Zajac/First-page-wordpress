@@ -5205,9 +5205,6 @@
     }
 }
  @media screen and (max-width: 767px) {
-     .entry-title {
-         font-size: 1.25rem;
-    }
      .entry-author .author {
          text-align: center;
     }
