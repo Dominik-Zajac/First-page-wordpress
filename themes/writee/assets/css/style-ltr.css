@@ -4599,6 +4599,7 @@
      background-position: center center;
     /**Sticky Effect**/
 }
+
  .site-header .site-container {
      position: relative;
 }
@@ -4673,11 +4674,18 @@
          width: 65.85366%;
     }
 }
+@media screen and (max-width: 991px) {
+    .site-header {
+        max-width: 80vw;
+    }
+}
+
  @media screen and (min-width: 992px) {
      .site-content {
          padding: 3.75em 0;
     }
 }
+
  .site-breadcrumbs .delimiter, .site-breadcrumbs .current, .breadcrumbs .delimiter, .breadcrumbs .current {
      color: #bf9e3b;
 }
@@ -5205,6 +5213,9 @@
     }
 }
  @media screen and (max-width: 767px) {
+     .entry-title {
+         font-size: 2.25rem;
+    }
      .entry-author .author {
          text-align: center;
     }
@@ -5312,16 +5323,17 @@
 }
  .with-right-sidebar .site-content, .with-right-sidebar .site-sidebar {
      float: left;
-     margin-right: 2.43902%;
+     /* margin-right: 2.43902%; */
 }
  .with-right-sidebar .site-content:last-child, .with-right-sidebar .site-sidebar:last-child {
      margin-right: 0;
 }
- @media screen and (min-width: 768px) {
+ @media screen and (min-width: 992px) {
      .with-right-sidebar .site-sidebar {
          padding: 3.75em 0 3.75em 2.5em;
     }
 }
+
  .grid-container {
      display: block;
      margin-top: -2.5em;
@@ -5472,6 +5484,7 @@
      z-index: 1;
      background-color: #1f640a;
      color: #ffffff;
+     font-family: "Lato" , sans-serif;
      border-left: 20px solid #1f640a;
      border-right: 20px solid #1f640a;
 }

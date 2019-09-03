@@ -51,7 +51,6 @@
     letter-spacing: normal !important;
     color: black !important;
     width: 100%;
-
 }
 .data-day {
     display: flex;
@@ -788,5 +787,11 @@
 @media screen and (max-width: 576px) {
 	.sp-template-player-list {
         margin: 0 10px 20px 20px !important;
+    }
+    
+    .sp-template *,
+    .sp-data-table *,
+    .sp-table-caption {
+        max-width: 90vw !important;
     }
 }
