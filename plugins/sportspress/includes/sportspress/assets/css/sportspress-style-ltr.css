@@ -55,9 +55,10 @@
     text-align: left !important;
 }
 
-
+/***********************************************/
+/*			      RWD		                   */
+/***********************************************/
 @media screen and (max-width: 576px) {
-
 	.sp-widget-align-none .data-name {
 		text-align: center !important;
 	}

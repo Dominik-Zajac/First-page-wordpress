@@ -56,7 +56,6 @@
 .data-day {
     display: flex;
     justify-content: center;
-    min-width: 385px;
 }
 
 .sp-table-caption {
@@ -152,11 +151,10 @@
 
 .table-date_box {
     border-top: none !important;
-    max-width: 400px !important;
+    /* max-width: 400px !important; */
 }
 .table-date_box th {
     display: block !important;
-    min-width: 400px !important;
 }
 
 .sp-data-table tr {
