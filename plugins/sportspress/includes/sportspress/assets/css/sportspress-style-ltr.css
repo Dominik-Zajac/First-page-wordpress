@@ -54,3 +54,11 @@
 .sp-data-table .data-name {
     text-align: left !important;
 }
+
+
+@media screen and (max-width: 576px) {
+
+	.sp-widget-align-none .data-name {
+		text-align: center !important;
+	}
+}

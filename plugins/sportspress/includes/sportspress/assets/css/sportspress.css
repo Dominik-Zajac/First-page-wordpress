@@ -678,7 +678,7 @@ span.sp_event_spec_label {
 }
 
 /***********************************************/
-/*					Additional code					   */
+/*			      Additional code			   */
 /***********************************************/
 .sp-widget-align-none {
 	margin-bottom: 15%;
@@ -692,4 +692,21 @@ span.sp_event_spec_label {
 .sp-widget-align-none .sp-event-list .data-away {
 	text-align: center !important;
 	min-width: 100px !important;
+}
+
+/***********************************************/
+/*			      RWD		                   */
+/***********************************************/
+@media screen and (max-width: 768px) {
+	.sp-widget-align-none {
+		margin: 10vh 10vw;
+	}
+}
+
+@media screen and (max-width: 576px) {	
+
+
+	.sp-widget-align-none .data-name .team-logo {
+		width: 100%;
+	}
 }
